@@ -20,7 +20,7 @@
     ]
   },
   "hooks": {
-    "pre-push": "npm test"
+    "pre-push": "yarn test"
   },
   "eslintConfig": {
     "extends": "react-app"
