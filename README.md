@@ -17,17 +17,18 @@ All your work should be in the file **src/App.js**. Do NOT create or modify othe
 ### Requirments
 - Nodejs
 - NPM
+- Yarn
 
 To start this challenge run the commands:
 ```
-npm install
+yarn install
 
-npm start
+yarn start
 ```
 
 To test your code via the command line run the command:
 ```
-npm test
+yarn test
 ```
 If your code does not pass the tests, you *will not* be able to submit your code.
 
