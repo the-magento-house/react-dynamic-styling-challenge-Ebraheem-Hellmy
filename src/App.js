@@ -3,16 +3,21 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  state = {}
+  state = {
+    backgroundColor: "#282c34"
+  }
 
   /**
    * Use this function only. Do not write additional class functions
    */
   changeBackgroundColor = () => {
     /**Your Code goes here */
+    this.setState({
+      backgroundColor: "#eb5202"
+    })
   }
 
-  
+
   render() {
     const { changeBackgroundColor } = this;
 
@@ -24,7 +29,7 @@ class App extends Component {
     /** Do NOT change the code below */
     return (
       <div className="App">
-        <header className="App-header" style={styles}>
+        <header className="App-header" style={this.state}>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
