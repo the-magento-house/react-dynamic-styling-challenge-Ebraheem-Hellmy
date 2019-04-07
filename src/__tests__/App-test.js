@@ -5,7 +5,7 @@ import App from '../App';
 test('App changes background color after click', () => {
     const app = shallow(<App />);
     
-    // app.find('button').simulate('click');
+    app.find('button').simulate('click');
     
     const containerStyle = app.find('.App-header').prop('style');
 
